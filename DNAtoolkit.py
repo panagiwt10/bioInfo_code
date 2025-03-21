@@ -3,6 +3,10 @@ from sequences import *
 
 Nucleotides = ["A", "C", "G", "T"]
 DNA_ReverseComplement = {'A': 'T','G':'C','C':'G','T':'A','G':'C'}
+import random
+
+Nucleotides = ["A", "C", "G", "T"]
+
 
 def validateSeq(dna_seq):
     tmpseq = dna_seq.upper()
@@ -19,8 +23,11 @@ def countNucFreq(seq):
      return tmpFreqDict
 
     
+<<<<<<< HEAD
 def transcribeDNAtoRNA(seq):
     return seq.replace("T","U")
 
 def reverseComplement(seq):
     return ''.join([DNA_ReverseComplement[nuc] for nuc in seq])[::-1]
+=======
+>>>>>>> 8300e62a731d35babf71972358f51d4df94f2440
