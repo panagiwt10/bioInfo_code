@@ -29,5 +29,3 @@ def transcribeDNAtoRNA(seq):
 
 def reverseComplement(seq):
     return ''.join([DNA_ReverseComplement[nuc] for nuc in seq])[::-1]
-=======
->>>>>>> 8300e62a731d35babf71972358f51d4df94f2440
